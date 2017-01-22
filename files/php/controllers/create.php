@@ -1,6 +1,6 @@
 <?php
 
-if(empty($access)) exit;
+if(empty($access) || empty($_POST["data"])) exit;
 
 $data = json_decode($_POST["data"], true);
 
