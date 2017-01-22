@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <title>Contacto</title>
+    <bar>
+        <item>Enviar un mensaje</item>
+        <item>Llenar la encuesta</item>
+        <item>Hacer una donación</item>
+    </bar>
+    <introduction>
+        ¿Tienes alguna pregunta, duda, sugerencia o deseas simplemente dejar un comentario acerca de tu experiencia usando este medio? ¡No hay problema! Rellena el formulario incluído en esta página y listo. Si aún no lo has hecho, se te invita, igualmente, a dejar tus impresiones de forma divertida, participando en una encuesta en la que podrás indicar que tal te ha parecido todo. Finalmente, si deseas contribuir de un modo más activo a la realización de este tipo de iniciativas, considera mostrar tu apoyo haciendo una donación en Bitcoins a su autor, la cual por muy modesta que sea, será de gran ayuda y más que bienvenida.
+    </introduction>
+    <texts>
+        <item>El mensaje ha sido enviado con éxito. Gracias!</item>
+        <item>La encuesta ha sido procesada con éxito. Gracias!</item>
+        <item>GENERAL</item>
+        <item>Votos</item>
+    </texts>
+    <form>
+        <labels>
+            <item>Nombre</item>
+            <item>Correo</item>
+            <item>Asunto</item>
+            <item>Mensaje</item>
+        </labels>
+        <options>
+            <item>Tópico general</item>
+            <item>Sugerencias de atributos para personajes</item>
+            <item>Sugerencias para mejorar el programa</item>
+            <item>Sugerencias para expandir el servicio</item>
+            <item>Reportar contenido erróneo</item>
+            <item>Reportar funcionamiento defectuoso</item>
+        </options>
+        <placeholder>
+            <item>Escribe</item>
+            <item>el número oculto</item>
+            <item>la letra oculta</item>
+        </placeholder>
+        <sign>Todos los campos son opcionales excepto el de mensaje*</sign>
+    </form>
+    <survey>
+        <introduction>
+            Las páginas de contacto no siempre son aburridas. Si eres de las personas que disfrutan de las encuestas, te invito a que respondas esta.
+        </introduction>
+        <sections>
+            <item>
+                <title>DISEÑO</title>
+                <topics>
+                    <item>¿Qué tan bien encaja todo, sin elementos fuera de lugar colapsando con otros?</item>
+                    <item>¿Qué tan legible, relajante y no agresivo a la vista es el contenido?</item>
+                    <item>¿Qué tan facilmente accesible son las secciones, enlaces, botones, etc?</item>
+                </topics>
+            </item>
+            <item>
+                <title>PROGRAMA</title>
+                <topics>
+                    <item>¿Qué tan útil crees que sea lo que permite hacer?</item>
+                    <item>¿Qué tan sencillo de usar y fácil de entender resulta?</item>
+                    <item>¿Qué tan eficaz o adecuada es la forma en que está concebido?</item>
+                </topics>
+            </item>
+            <item>
+                <title>SISTEMA</title>
+                <topics>
+                    <item>¿Qué tan bien y sin errores funciona todo?</item>
+                    <item>¿Qué tan rápido se cargan las páginas y se ejecutan las acciones?</item>
+                </topics>
+            </item>
+            <item>
+                <title>OTROS</title>
+                <topics>
+                    <item>¿Qué tan de calidad es el contenido y la redacción del mismo?</item>
+                    <item>¿Qué tan consistente y bien estructurada es la arquitectura del sitio?</item>
+                </topics>
+            </item>
+        </sections>
+        <buttonLabels>
+            <item>Nada</item>
+            <item>Muy poco</item>
+            <item>Un poco</item>
+            <item>Mucho</item>
+            <item>Bastante</item>
+        </buttonLabels>
+    </survey>
+    <donation>
+        <introduction>
+            El autor agradece que desees contribuir a valorar el tiempo y la dedicación que ha empleado en llevar a cabo este tipo de iniciativa, mediante una donación en reconocimiento a su actividad y en agradecimiento al provecho que como usuario hayas obtenido del uso de esta aplicación. Desafortunadamente, la única donación que es posible aceptar de momento es en Bitcoins. Para llevarla a cabo, copia la dirección a la que enviar o escanea el código QR de la imagen.
+        </introduction>
+        <text>DIRECCIÓN</text>
+    </donation>
+    <buttons>
+        <item>BORRAR</item>
+        <item>ENVIAR</item>
+    </buttons>
+</content>

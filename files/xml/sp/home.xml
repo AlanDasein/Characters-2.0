@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <head>
+        <title>Bienvenido a la Fábrica de personajes, el programa que te ayuda a construir los personajes de tus historias y a encontrar inspiración.</title>
+        <text>
+            La Fábrica de personajes es un programa pensado para asistir a profesionales y aficionados en el proceso creativo de desarrollar obras literarias, dramatúrgicas y guiones. El acercamiento que emplea para alcanzar dicho fin, consiste en brindar una herramienta con la que crear personajes desde cero y gestionar sus fichas. El programa además puede rellenar los rasgos de los personajes de forma aleatoria como método de inspiración. Si te dedicas o piensas dedicarte a escribir, esta herramienta quizás te sea de utilidad y el comienzo de una interesante experiencia para ti.
+        </text>
+    </head>
+    <panel>
+        <title>Piensa en este programa como en un estudio para la conformación de personajes.</title>
+        <text>
+            Con el mismo no solo podrás crear fichas completamente personalizables para tus personajes sino además crear toda una galería de ellos escogiendo rasgos al azar con que dotarlos, sexo, edad, apariencia física, virtudes y defectos, gustos y aversiones, circunstancias por las que atraviesan, etc. Una de los aspectos más críticos relacionados con la creación de una historia es concebir y darle cuerpo a los seres ficticios que la protagonizan. Este programa no pretende evitarte la molestia de pasar por esa fase, algo ni posible ni deseable, puesto que se estaría eliminando una parte sumamente valiosa del desarrollo creativo, pero sí se propone en cambio dar el empujoncito que desate toda tu fuerza imaginativa.
+        </text>
+        <button>Comienza a crear personajes</button>
+    </panel>
+    <body>
+        <title>¿Cómo funciona?</title>
+        <text>
+            <![CDATA[<b class="cool-text text-warning">CREACIÓN DE PERSONAJES:&nbsp;&nbsp;</b>Para poner manos a la obra y empezar a sacar provecho de esta curiosa novedad lo primero será empezar a crear personajes accediendo a la <a href="@lang/characters"><b>Fábrica</b></a>. Los personajes podrán ser creados tanto dejando sus rasgos en blanco para llenarlos más adelante una vez creadas sus fichas, como rellenando los mismos con información introducida al azar en caso de que necesites un poco de inspiración en cuanto a con qué características dotarlos. Se trata de un trámite bastante sencillo, pero en caso de hacerse difícil su comprensión, el sistema dispone además de un completo <a href="@lang/help"><b>manual de ayuda</b></a> mediante el cual guiarse a través de todo el proceso.]]>
+        </text>
+        <text>
+            <![CDATA[<b class="cool-text text-warning">GALERÍA DE PERSONAJES:&nbsp;&nbsp;</b>Cada personaje, una vez creado, dispondrá de una ficha en la cual se encuentran sus rasgos detallados. Las fichas son totalmente modificables. Podrás lo mismo editar la denominación de los rasgos que su contenido, rellenar rasgos de forma aleatoria en búsqueda de ideas, eliminar rasgos, recuperar rasgos eliminados e incluso agregar nuevos rasgos. El programa cuenta con una razonablemente robusta base de datos de la que extraer los rasgos con los que moldear a los personajes creados si así lo deseas y las combinaciones son practicamente infinitas.]]>
+        </text>
+        <text>
+            <![CDATA[<b class="cool-text text-warning">GUARDAR E IMPRIMIR:&nbsp;&nbsp;</b>Por último, ¿de qué vale armar toda una galería de personajes si no hay como conservarla? Durante el tiempo en que se esté usando el programa, es posible navegar por las distintas secciones sin perder ningún progreso en cuanto a los personajes creados, sus añadidos, modificaciones y demás, pero una vez cerrada la aplicación esto ya no será posible por más tiempo. Afortunadamente, guardar o imprimir las fichas de los personajes puede ser llevado a cabo fácilmente tan solo seleccionando la opción de exportar la misma a un archivo <b>PDF</b>, el cual podrá ser guardado o impreso a conveniencia.]]>
+        </text>
+        <text>
+            <![CDATA[Y esto es, básicamente, todo. Disfruta de la herramienta y esperemos que te pueda ser de provecho. No olvides además usar la <a href="@lang/contact"><b>página de contacto</b></a> para transmitir cualquier duda o sugerencia que tengas o simplemente para dejar un comentario. Desde la misma también podrás efectuar una donación en caso de que quieras brindar tu apoyo al desarrollo y mantenimiento de este proyecto, así como rellenar una <b>encuesta o sistema de votación</b> al que estás invitado a participar si te apetece dejar una valoración respecto a qué te ha parecido la experiencia de usar este medio.]]>
+        </text>
+    </body>
+    <stats>
+        <title>Datos de uso</title>
+        <item>Visitantes</item>
+        <item>Personajes Creados</item>
+        <item>Galerías exportadas</item>
+        <item>Personajes por visitante</item>
+        <item>Galerías por visitante</item>
+        <item>Personajes por galería exportada</item>
+    </stats>
+    <quotes>
+        <item>
+            <author>Ernest Hemingway</author>
+            <cite>Un escritor debe crear gente viva; personas no personajes. Un personaje es una caricatura.</cite>
+        </item>
+        <item>
+            <author>Ray Bradbury</author>
+            <cite>Creo mis personajes para que vivan su propia vida. En realidad, no soy yo quien los creo a ellos sino que son ellos quienes me crean a mí.</cite>
+        </item>
+        <item>
+            <author>Luigi Pirandello</author>
+            <cite>Los personajes no deben aparecer como fantasmas sino como realidades creadas, construcciones inmutables de la fantasía: más reales y más consistentes, en definitiva, que la voluble naturalidad de los actores.</cite>
+        </item>
+        <item>
+            <author>Antonio Skarmeta</author>
+            <cite>Un personaje es siempre un proyecto y no debe preexistir a la novela. Son los actos los que lo moldean, las opciones que toma.</cite>
+        </item>
+        <item>
+            <author>Rosa Montero</author>
+            <cite>Es el personaje el que te va enseñando cómo es. El novelista debe de ser lo suficientemente humilde como para dejar de lado su voluntad, digamos, y hacer caso a lo que el personaje le va contando de sí mismo.</cite>
+        </item>
+    </quotes>
+</content>

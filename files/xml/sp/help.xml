@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <title>Ayuda</title>
+    <bar>
+        <item>Crear personajes</item>
+        <item>Administrar fichas</item>
+        <item>Profesiones</item>
+        <item>Virtudes y defectos</item>
+        <item>Gustos, aversiones y miedos</item>
+        <item>Deseos</item>
+        <item>Circunstancias</item>
+    </bar>
+    <introduction>
+        Para aprender a usar el creador de personajes y administrar las fichas de personajes creados y demás, revisa los siguientes tópicos.
+    </introduction>
+    <topics>
+        <item type="manual">
+            <![CDATA[
+                <p class='text-justify line-20'>
+                    Para acceder al <b>creador de personajes</b> usa la barra de navegación ubicada en la parte superior de la página, en la que se encuentra un menú desplegable con enlaces a las secciones de <b>creación de personajes</b> y <b>administrador de fichas</b>.
+                </p>
+                <hr/>
+                <div class='group'>
+                    <p class='text-justify line-20'>
+                        Usa los botones ubicados debajo de la barra de navegación de secciones para crear un personaje. Confirma en el mensaje que se muestra a continuación si deseas proceder con la acción seleccionada.
+                    </p>
+                    <p class='text-justify line-20'>
+                        Los personajes se crean de inicio con una serie de rasgos básicos que más adelante podrán ser modificados a conveniencia en el administrador de fichas de personajes.
+                    </p>
+                    <div class='group text-justify line-20'>
+                        <div class='header'><label class='text-warning text-left'>Crear personaje al azar</label></div>
+                        <div class='group'>
+                            Usa esta acción para que el personaje sea creado dotando de contenido a sus rasgos iniciales por medio de un programa de selección aleatoria.
+                        </div>
+                        <br/>
+                        <div class='header'><label class='text-warning text-left'>Crear personaje en blanco</label></div>
+                        <div class='group'>
+                            Usa esta acción para que el personaje sea creado con los rasgos iniciales en blanco, esto es, sin rellenarlos con contenido seleccionado al azar.
+                        </div>
+                    </div>
+                    <br/>
+                    <p class='text-justify line-20'>
+                        Una vez que el personaje haya sido creado, podrá ser visto de inmediato en el <b>administrador de fichas</b>, donde se muestran las fichas de todos los personajes creados <b>desde el más reciente hasta el más antiguo</b>.
+                    </p>
+                </div>
+                <br/><hr/>
+                <div class='group'>
+                    <p class='text-justify line-20'>
+                        Cada rasgo inicial con el que arrancan los personajes al ser creados dispone de un grupo de parámetros para ajustar la forma en que dicho rasgo será rellenado en caso de que el personaje vaya a ser creado al azar. Excepto la opción de <b>incluir el rasgo en el proceso de selección aleatoria</b>, tales parámetros variarán según las características particulares del rasgo a rellenar.
+                    </p>
+                </div>
+                <div class='group text-justify line-20'>
+                    <div class='header'><label class='text-warning text-left'>Incluir en el creador</label></div>
+                    <div class='group'>
+                        Selecciona esta opción para que el rasgo sea rellenado de forma aleatoria cuando se cree un personaje al azar. Solo se rellenarán aquellos rasgos que tengan esta opción marcada, de modo que desactivar la misma para todos los rasgos equivale a crear un personaje con sus rasgos iniciales en blanco. Desactívala, por tanto, únicamente para aquellos rasgos que no desees que sean rellenados, por ejemplo, si solo quieres rellenar <b>sexo</b> y <b>edad</b> y dejar en blanco al resto de rasgos.
+                    </div>
+                    <br/>
+                    <div class='header'><label class='text-warning text-left'>Rasgos con lista de opciones</label></div>
+                    <div class='group'>
+                        Estos son aquellos rasgos, como <b>sexo</b> o <b>raza</b>, que son rellenados seleccionando de entre un grupo de opciones pre-establecidas.
+                        <br/><br/>
+                        <div class='header'><label class='text-danger text-left'>Todas las opciones</label></div>
+                        <div class='group'>
+                            Selecciona esta opción para que el rasgo sea rellenado escogiendo al azar entre todas las opciones disponibles.
+                        </div>
+                        <br/>
+                        <div class='header'><label class='text-danger text-left'>Resto de opciones</label></div>
+                        <div class='group'>
+                            Para que el rasgo sea seleccionado únicamente de entre un grupo de opciones en lugar de entre todas las opciones disponibles, activa las opciones que deseas ver incluídas en el proceso de selección aleatoria. Cualquier opción que no haya sido seleccionada será excluída al momento de crear el personaje al azar. Por ejemplo, si para rellenar el rasgo raza hay seleccionadas solo las opciones <b>blanca</b> y <b>asiática</b>, el rasgo de <b>raza</b> será rellenado únicamente escogiendo de entre <b>blanca</b> y <b>asiática</b>. De igual manera, si activas una sola opción de todas las disponibles, el rasgo será rellenado con dicha opción en específico.
+                        </div>
+                    </div>
+                    <br/>
+                    <div class='header'><label class='text-warning text-left'>Rasgos con selectores numéricos</label></div>
+                    <div class='group'>
+                        Estos son aquellos rasgos, como <b>edad</b>, que son rellenados escogiendo un valor dentro de un rango determinado.
+                        <br/><br/>
+                        <div class='header'><label class='text-danger text-left'>Valor mínimo</label></div>
+                        <div class='group'>
+                            Este es el valor más bajo que podrá ser escogido.
+                        </div>
+                        <br/>
+                        <div class='header'><label class='text-danger text-left'>Valor máximo</label></div>
+                        <div class='group'>
+                            Este es el valor más alto que podrá ser escogido.
+                        </div>
+                        <br/>
+                        <div class='actions selector'>
+                            Usa los botones <button type='button' class='btn btn-warning'>+</button> y <button type='button' class='btn btn-warning'>-</button> para incrementar o disminuir el valor respectivamente.
+                        </div>
+                        <br/>
+                        <p>En caso de tener ambos selectores, mínimo y máximo, el mismo valor, tal valor será el número exacto que será seleccionado.</p>
+                        <p>
+                            Si el rasgo para el cual se está efectuando la selección es el rasgo de <b>edad</b>, el valor finalmente seleccionado será la misma. En cambio, si el rasgo es, por ejemplo, <b>defectos</b>, lo que se está indicando es que un número entre <b>X (valor mínimo)</b> y <b>Y (valor máximo)</b> de <b>defectos</b> serán seleccionados al azar para rellenar este rasgo.
+                        </p>
+                        <p>
+                            Los valores más bajos y más altos que se pueden indicar para el rasgo <b>edad</b> son <b>@age:min</b> y <b>@age:max</b> respectivamente. Para el resto de rasgos los valores son <b>@options:min</b> y <b>@options:max</b>.
+                        </p>
+                    </div>
+                </div>
+            ]]>
+        </item>
+        <item type="manual">
+            <![CDATA[
+                <p class="text-justify line-20">
+                    Para acceder al <b>administrador de fichas de personajes</b> usa la barra de navegación ubicada en la parte superior de la página, en la que se encuentra un menú desplegable con enlaces a las secciones de <b>administrador de fichas</b> y <b>creación de personajes</b>.
+                </p>
+                <hr/>
+                <div class="group">
+                    <p class="text-justify line-20">
+                        El administrador de fichas muestra las fichas de todos los personajes creados, <b>excepto aquellos que hayan sido eliminados</b>, desde el más reciente hasta el más antiguo.
+                    </p>
+                    <div class="group text-justify line-20">
+                        <div class="header"><label class="text-warning text-left">Edición manual de las fichas</label></div>
+                        <ul>
+                            <li>
+                                El contenido de cada una de las fichas es <b>completamente editable</b>. Tanto los pormenores de los rasgos como <b>la denominación de los mismos</b> pueden ser modificados. Puedes cambiar el contenido de cada rasgo haz click en la fila de su denominación o en la fila de sus pormenores según lo que quieras modificar sea lo uno o lo otro.
+                            </li>
+                            <li>
+                                La denominación no es posible dejarla en blanco, pero su designación es perfectamente personalizable. Por ejemplo, es posible cambiar el rasgo <b>profesión</b> para que en cambio diga <b>ocupación</b>. Los pormenores del rasgo, en cambio, pueden ser dejados sin rellenar, aunque en este caso el rasgo no se mostrará cuando las fichas sean exportadas para guardar o imprimir (ver más abajo <b>guardar o imprimir fichas de personajes</b>).
+                            </li>
+                            <li>
+                                El contenido también puede ser introducido por los medios habituales de cortar y pegar, aunque los saltos de línea que contenga el texto pegado serán eliminados (la edición manual no brinda soporte para conservar los saltos de línea).
+                            </li>
+                            <li>No hay límite de caracteres para el texto introducido.</li>
+                            <li>
+                                Tras hacer las modificaciones pertinentes se recomienda hacer click fuera del campo que se estuvo editando para que los cambios efectuados queden guardados. Es importante tener esto en cuenta ya que los cambios no se guardarán a menos que el rasgo que está siendo editado pierda el foco de edición.
+                            </li>
+                        </ul>
+                        <div class="header actions"><button type="button" class="btn btn-warning sample">&#8634;</button><label class="text-warning text-left">Rellenar rasgo al azar</label></div>
+                        <ul>
+                            <li>
+                                Excepto para el rasgo de <b>nombre</b> y los rasgos que hayan sido agregados desde el editor de fichas (ver más abajo <b>agregar rasgo</b>), es posible volver a rellenar o agregar atributos al azar a un rasgo en específico pulsando en este botón ubicado a la derecha de la fila de denominación del rasgo junto al <b>botón de eliminar</b>.
+                            </li>
+                            <li>
+                                Un mensaje de confirmación se mostrará para que compruebes que el rasgo que será rellenado una vez más es el correcto y puedas proseguir con la acción.
+                            </li>
+                            <li>
+                                El valor de algunos rasgos como <b>apariencia física</b> o <b>edad</b> será sustituído por el nuevo valor obtenido al azar, pero para otros rasgos como <b>defectos</b> o <b>miedos</b> el nuevo valor será añadido al valor o valores que ya contenga ese rasgo, de contener alguno.
+                            </li>
+                        </ul>
+                        <div class="header actions"><button type="button" class="btn btn-danger sample">x</button><label class="text-warning text-left">Eliminar rasgo</label></div>
+                        <ul>
+                            <li>
+                                Excepto para el rasgo de <b>nombre</b> es posible eliminar un rasgo en específico, incluídos los rasgos que hayan sido agregados desde el editor de fichas (ver más abajo <b>agregar rasgo</b>), pulsando en este botón ubicado a la derecha de la fila de denominación del rasgo junto al <b>botón de rellenar al azar</b>.
+                            </li>
+                            <li>
+                                Un mensaje de confirmación se mostrará para que compruebes que el rasgo que deseas eliminar es el correcto y puedas proseguir con la acción.
+                            </li>
+                            <li>
+                                Cada rasgo eliminado podrá recuperarse en cualquier momento llevando a cabo la acción correspondiente (ver más abajo <b>recuperar rasgos eliminados</b>).
+                            </li>
+                        </ul>
+                        <div class="header actions"><button type="button" class="btn btn-warning sample">+</button><label class="text-warning text-left">Agregar rasgo</label></div>
+                        <ul>
+                            <li>
+                                Es posible agregar nuevos rasgos a la ficha de un personaje pulsando en este botón ubicado en la ezquina inferior derecha de cada ficha junto a los botones de </b>recuperar rasgos eliminados</b> y de </b>eliminar ficha</b>.
+                            </li>
+                            <li>
+                                Una vez creado el nuevo rasgo podrás editarlo introduciendo contenido al mismo como se especificó anteriormente (ver más arriba </b>edición manual de fichas</b>).
+                            </li>
+                            <li>
+                                El nuevo rasgo podrá ser además eliminado y recuperado llevando a cabo las acciones correspondientes, tanto como el resto de rasgos que ya vienen incluídos con la creación del personaje.
+                            </li>
+                        </ul>
+                        <div class="header actions"><button type="button" class="btn btn-warning sample">&#8634;</button><label class="text-warning text-left">Recuperar rasgos eliminados</label></div>
+                        <ul>
+                            <li>
+                                Es posible recuperar los rasgos que hayan sido eliminados pulsando en este botón ubicado en la ezquina inferior derecha de cada ficha junto a los botones de <b>agregar rasgo</b> y de <b>eliminar ficha</b>.
+                            </li>
+                            <li>Un mensaje de confirmación se mostrará para que compruebes que deseas llevar a cabo la acción seleccionada.</li>
+                            <li>
+                                Todos los rasgos que hayan sido eliminados, lo mismo aquellos que ya vienen incluídos con la creación del personaje que los que hayan sido agregados posteriormente volverán a aparecer en la ficha tras completarse la acción.
+                            </li>
+                            <li>
+                                Lamentablemente, no es posible recuperar rasgos de manera individual. Para recuperar un rasgo en específico será menester recuperar todos y luego volver a eliminar los que no sea de interés conservar.
+                            </li>
+                        </ul>
+                        <div class="header actions"><button type="button" class="btn btn-danger sample">x</button><label class="text-warning text-left">Eliminar ficha</label></div>
+                        <ul>
+                            <li>
+                                Es posible finalmente eliminar toda la ficha del personaje pulsando en este botón ubicado en la ezquina inferior derecha de cada ficha junto a los botones de <b>recuperar rasgos eliminados</b> y de <b>agregar rasgo</b>.
+                            </li>
+                            <li>Un mensaje de confirmación se mostrará para que compruebes que deseas llevar a cabo la acción seleccionada.</li>
+                            <li>
+                                Cada ficha o personaje eliminado podrá recuperarse en cualquier momento llevando a cabo la acción correspondiente (ver más abajo <b>recuperar personajes eliminados</b>).
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><hr/>
+                <div class="group">
+                    <p class="text-justify line-20">
+                        Además de las acciones individuales de que dispone la ficha de cada personaje creado, otra serie de acciones agrupadas en botones ubicados encima del listado de fichas, debajo de la <b>barra de navegación de secciones</b>, se encarga de ejecutar operaciones que afectan al conjunto de fichas en general.
+                    </p>
+                    <div class="group text-justify line-20">
+                        <div class="header"><label class="text-warning text-left">Recuperar los personajes eliminados</label></div>
+                        <ul>
+                            <li>
+                                Selecciona esta acción para recuperar las fichas de personajes que hayan sido eliminadas durante el proceso de edición de las mismas.
+                            </li>
+                            <li>Un mensaje de confirmación se mostrará para que compruebes que deseas llevar a cabo la acción seleccionada.</li>
+                            <li>
+                                Todas las fichas de personajes que hayan sido eliminadas volverán a aparecer tras completarse la acción, no así los rasgos del personaje que hayan sido eliminados previamente de la ficha. Para recuperar los rasgos eliminados de la ficha de un personaje recuperado, deberás llevar a cabo la acción correspondiente (ver más arriba <b>recuperar rasgos eliminados</b>).
+                            </li>
+                            <li>
+                                Lamentablemente, no es posible recuperar fichas de personajes de manera individual. Para recuperar un personaje en específico será menester recuperar todos y luego volver a eliminar los que no sea de interés conservar.
+                            </li>
+                        </ul>
+                        <div class="header"><label class="text-warning text-left">Guardar o imprimir fichas de personajes</label></div>
+                        <ul>
+                            <li>
+                                Selecciona esta acción para exportar las fichas de los personajes creados a un <b>documento PDF</b>, el cual podrás guardar o imprimir a conveniencia.
+                            </li>
+                            <li>
+                                Una nueva ventana o pestaña se abrirá con el documento creado y el mismo contendrá las fichas de todos los personajes que no hayan sido eliminados separados por páginas en tablas encabezadas con el nombre del personaje y los rasgos y sus pormenores dispuestos en columnas contiguas debajo.
+                            </li>
+                            <li>
+                                Al igual que las fichas de personajes eliminadas, los rasgos que hayan sido eliminados de las fichas <b>no serán mostrados en el documento</b>. Aquellos rasgos que se encuentren en blanco <b>sí comparecerán</b>, en cambio, en caso de que desees imprimir el documento creado y rellenar los rasgos vacíos manualmente en otro momento. De modo que si deseas que no se muestre un determinado rasgo de una ficha al ser exportada para guardar e imprimir, <b>elimina dicho rasgo en vez de simplemente dejarlo en blanco</b>.
+                            </li>
+                        </ul>
+                        <div class="header"><label class="text-warning text-left">Comenzar nueva sesión de personajes</label></div>
+                        <ul>
+                            <li>
+                                Selecciona esta acción si deseas descartar la sesión actual de personajes y volver a empezar en limpio creando una nueva, por ejemplo cuando ya has terminado de trabajar con la misma y ha sido guardada y/o imprimida.
+                            </li>
+                            <li>Un mensaje de confirmación se mostrará para que compruebes que deseas llevar a cabo la acción seleccionada.</li>
+                            <li>
+                                Esta acción eliminara <b>permanentemente</b> todas las fichas de personajes que hayan sido creados en la presente sesión, lo mismo aquellas activas que aquellas previamente eliminadas de forma temporal. Una vez ejecutada, por tanto, es <b>irreversible</b>. Asegúrate de que esto es exactamente lo que deseas hacer.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            ]]>
+        </item>
+        <item type="reference">profession</item>
+        <item type="reference">weaknesses,strengths</item>
+        <item type="reference">likes,dislikes,fears</item>
+        <item type="reference">goals</item>
+        <item type="reference">circumstances</item>
+    </topics>
+    <texts>
+        <item>Estos son los distintos atributos que han sido recopilados para ayudar en la creación aleatoria de personajes: #.</item>
+    </texts>
+</content>

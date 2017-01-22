@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <title>Fábrica</title>
+    <bar>
+        <item>Fichas de Personajes</item>
+        <item>Creador de Personajes</item>
+    </bar>
+    <section>
+        <buttons>
+            <item action="reset">Comenzar nueva sesión de personajes</item>
+            <item action="recover_sections">Recuperar los personajes eliminados</item>
+            <item action="pdf">Guardar o imprimir fichas de personajes</item>
+        </buttons>
+    </section>
+    <section>
+        <buttons>
+            <item action="full">Crear personaje al azar</item>
+            <item action="blank">Crear personaje en blanco</item>
+        </buttons>
+    </section>
+    <texts>
+        <item>
+            Aún no ha sido creado ningún personaje. Selecciona "Creador de personajes" en el menú desplegable de la barra de navegación ubicada más arriba para empezar a crear personajes.
+        </item>
+        <item>Incluir en el creador</item>
+        <item>Valor Mínimo</item>
+        <item>Valor Máximo</item>
+        <item>Todas las opciones</item>
+        <item>Nombre</item>
+        <item>Sin Nombre</item>
+        <item>Sin Especificar</item>
+        <item>Nuevo rasgo</item>
+        <item>Se agregará un elemento más a los que ya hayan</item>
+    </texts>
+    <tooltips>
+        <item>Agregar rasgo</item>
+        <item>Rellenar rasgo</item>
+        <item>Eliminar rasgo</item>
+        <item>Eliminar ficha</item>
+        <item>Recuperar rasgos eliminados</item>
+    </tooltips>
+</content>

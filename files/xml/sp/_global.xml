@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <title>Fábrica de personajes</title>
+    <description>Creador de personajes aleatorios para escritores</description>
+    <languages>
+        <item link="sp">Español</item>
+    </languages>
+    <menu>
+        <item link="home">Inicio</item>
+        <item link="characters">Fábrica</item>
+        <item link="help">Ayuda</item>
+        <item link="contact">Contacto</item>
+    </menu>
+    <alerts>
+        <item action="reset">¿Crear nueva sesión de personajes y eliminar la sesión actual?</item>
+        <item action="recover_sections">¿Recuperar todos los personajes eliminados?</item>
+        <item action="delete_section">¿Eliminar este personaje?</item>
+        <item action="delete_subsection">¿Eliminar este rasgo?</item>
+        <item action="recover_subsections">¿Recuperar todos los rasgos eliminados de este personaje?</item>
+        <item action="refill">¿Volver a llenar este rasgo de forma aleatoria?</item>
+        <item action="full">¿Crear personaje con los parámetros definidos debajo?</item>
+        <item action="blank">¿Crear personaje en blanco (los parámetros definidos debajo serán ignorados)?</item>
+        <item action="no_message">No es posible enviar el mensaje porque no se ha escrito ningún mensaje</item>
+        <item action="no_kaptcha">No es posible enviar el mensaje porque la pregunta anti spam no es correcta</item>
+        <item action="survey">Para enviar la encuesta todas las preguntas deben ser respondidas</item>
+    </alerts>
+    <modalButtons>
+        <item>Cerrar</item>
+        <item>Continuar</item>
+    </modalButtons>
+    <texts>
+        <item>Idioma</item>
+        <item>Ir Arriba</item>
+    </texts>
+    <ads>
+        <item>¿Sabías que la página de contacto dispone de una encuesta con un sistema de votación en la cual puedes puntuar este programa? ¡Haz clic en este mensaje y anímate a participar! Tus observaciones serán altamente apreciadas.</item>
+    </ads>
+</content>
