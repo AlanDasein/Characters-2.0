@@ -83,7 +83,7 @@ $(document).ready(function() {
             e.preventDefault();
             (l < 0 || t < 0) ? window.open(dir[dom.social.index($(this))], "_blank") :
                 window.open(dir[dom.social.index($(this))], "_blank", "width= " + w + ", height= " + h + ", left=" + l + ", top=" + t);
-            callAjax("files/php/controllers/share.php", {"file": $(this).attr("dt-target")}, "", function(res) {console.log(res);});
+            callAjax("files/php/controllers/share.php", {"file": $(this).attr("dt-target")});
         });
 
     }
