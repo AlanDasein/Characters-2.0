@@ -1,6 +1,6 @@
 <?php
 
-if(empty($access)) exit;
+if(empty($access) || empty($_POST["data"])) exit;
 
 $values = json_decode($_POST["data"], true);
 $param = array("time" => "NOW()", "ip" => Helper::getIp());
