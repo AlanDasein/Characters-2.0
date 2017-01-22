@@ -1,6 +1,6 @@
 <?php
 
-if(empty($access)) exit;
+if(empty($access) || empty($_POST["message"])) exit;
 
 Helper::setData($connection, "gn_contact", array(
     "time" => "NOW()",
