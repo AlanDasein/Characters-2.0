@@ -74,7 +74,7 @@ foreach($data as $k => $v) {
 
 $_SESSION["characters_session"]["characters"]->add($param);
 
-if(empty($_SESSION["characters_session_admin"])) Helper::manageCounters($settings["paths"]["counters"]."characters.inc");
+if(empty($_SESSION["characters_admin"])) Helper::manageCounters($settings["paths"]["counters"]."characters.inc");
 
 header("location: ".$route["lang"]."/".$route["page"]);
 
