@@ -55,7 +55,9 @@ if(isset($_POST["refill"])) {
             $exclude = array();
             foreach($_SESSION["characters_session"]["categories"] as $k => $v) {
                 if($v["link"] === $link || $k === (int)$_POST["subindex"] - 1) {
-                    $exclude[] = str_replace(".", ",", str_replace(". ", ",", $_SESSION["characters_session"]["characters"]->values[$_POST["index"]][$k + 1]["value"]));
+                    $aux = explode(".", $_SESSION["characters_session"]["characters"]->values[$_POST["index"]][$k + 1]["value"]);
+                    foreach($aux as $w => $y) $aux[$w] = trim($y);
+                    $exclude[] = implode(",", $aux);
                 }
             }
             $exclude = count($exclude) > 0 ? "'".str_replace(",", "','", implode(",", $exclude))."'" : "";
