@@ -4,7 +4,7 @@ session_start();
 
 if(empty($_SESSION["characters_session"]["characters"])) exit;
 
-if(empty($_SESSION["characters_session_admin"])) Helper::manageCounters($settings["paths"]["counters"]."exports.inc");
+if(empty($_SESSION["characters_admin"])) Helper::manageCounters($settings["paths"]["counters"]."exports.inc");
 
 $content = array("specific" => simplexml_load_file($settings["paths"]["langs"].$_SESSION["characters_session"]["curlang"]."/characters.xml"));
 
